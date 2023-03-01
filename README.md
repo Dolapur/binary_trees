@@ -1,16 +1,13 @@
 # C - Binary trees
 
-This was a partner project in which we learned about the details, advantages,
-and disadvantages of using trees as data structures. We learned about how to
-qualify trees as well as how to traverse them. Throughout the project, we
-implemented binary, binary search, AVL, and Max Binary Heap trees.
+This is a team project with a tittle "Binary trees". The project is all about using trees as data structures.
+We will learn how to qualify trees as well as how to traverse them. Throughout this project, we wil implement binary, binary search, AVL, and Max Binary Heap trees.
 
 ## Tests :heavy_check_mark:
 
 * [Tester](./Main_tester): Folder of test files for all tasks. Provided by ALX.
 
 ## Helper File :raised_hands:
-
 
 
 ## Header File :file_folder:
@@ -36,6 +33,7 @@ typedef struct binary_tree_s heap_t;
 
 Function Prototypes
 
+|--------------------------------- | ------------------------------------------------------------------------------------------------ |
 | File                             | Prototype                                                                                        |
 | -------------------------------- | ------------------------------------------------------------------------------------------------ |
 | `binary_tree_print.c`            | `void binary_tree_print(const binary_tree_t *tree)`                                              |
@@ -44,7 +42,7 @@ Function Prototypes
 | `2-binary_tree_insert_right.c`   | `binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);`                     |
 | `3-binary_tree_delete.c`         | `void binary_tree_delete(binary_tree_t *tree);`                                                  |
 | `4-binary_tree_is_leaf.c`        | `int binary_tree_is_leaf(const binary_tree_t *node);`                                            |
-| `5-binary_tree_is_root.c`        | `int binary_tree_is_root(const binary_tree_t *node);`
+| `5-binary_tree_is_root.c`        | `int binary_tree_is_root(const binary_tree_t *node);`                                            |
 | `6-binary_tree_preorder.c`       | `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));`                       |
 | `7-binary_tree_inorder.c`        | `void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));`                        |
 | `8-binary_tree_postorder.c`      | `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));`                      |
@@ -71,6 +69,7 @@ Function Prototypes
 | `120-binary_tree_is_avl.c`       | `int binary_tree_is_avl(const binary_tree_t *tree);`                                             |
 | `121-avl_insert.c`               | `avl_t *avl_insert(avl_t **tree, int value);`                                                    |
 | `122-array_to_avl.c`             | `avl_t *array_to_avl(int *array, size_t size);`                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------ |
 
 ## Tasks :page_with_curl:
 
@@ -255,6 +254,6 @@ Function Prototypes
     * Extracting the root node.
     * Searching for a node in a binary heap of size `n`.
 
-## Author
-* Ubaidullah Muhammad Ahmad < ubaidullahmahmad@gmail.com >
-* Adegoju Dolapo
+## Authors;
+* Ubaidullah Muhammad Ahmad.
+* Adegoju Dolapo.
